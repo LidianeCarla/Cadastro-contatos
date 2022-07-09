@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@400;500&family=Open+Sans&family=Ubuntu:wght@300&display=swap');
+
+body{
+    margin: auto;
+    padding: 0;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    height: 100vh;
+}
+
+
+.title{
+   text-align: center;
+}
+
+legend{
+    font-size: 25px;
+    font-family: Laila;
+    font-size: 25px;
+    padding-top: 40px;
+
+}
+
+form{
+    padding: 4%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap:5px;
+
+}
+
+
+
+.container-form{
+  padding:20px 40px;
+  background-color: white;
+  box-shadow: 0px 6px 39px 3px rgba(0,0,0,0.27);
+  border-radius: 10px ;
+  border: 2px solid #dedede;
+ 
+}
+
+
+.gender{
+    width: 110px;
+
+}
+
+
+.personal{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+
+}
+
+.button{
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+
+input{
+  font-size: 20px;
+  border-radius: 5px;
+  
+}
+
+
+input:hover{
+    cursor: pointer;
+}
+
+
+label{
+    font-size: 17px;
+}

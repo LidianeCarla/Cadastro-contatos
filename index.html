@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Cadastro de contatos.</title>
+</head>
+
+<body>
+  
+
+
+    <main>
+        <form action="" method="post">
+            <fieldset class="container-form">
+              
+                <legend>Cadastro de contatos</legend>
+              
+                <div class="personal">
+                    <label for="name">Digite seu nome</label>
+                    <input type="text" value="Ex: carla">
+                </div>
+
+
+                <div class="personal">
+                    <label for="telefone">Digite seu telefone</label>
+                    <input type="tel" placeholder="(xx) xxxxx-xxxx">
+                </div>
+
+
+
+                <div class="gender">
+                    <p>Sexo:</p>
+                    <input type="radio" id="masculino" name="gender" value="M">
+                    <label for="masculino">Masculino</label>
+
+                    <input type="radio" id="feminino" name="gender" value="F">
+                    <label for="feminino">Feminino</label>
+
+                    <input type="radio" id="outro" name="gender" value="O">
+                    <label for="outro">Outro</label>
+                </div>
+
+
+                <div class="button">
+                    <input type="submit" name="submit" value="Cancelar">
+                    <input type="submit" name="submit" value="Enviar">
+                </div>
+            </fieldset>
+
+        </form>
+    </main>
+</body>
+
+</html>
